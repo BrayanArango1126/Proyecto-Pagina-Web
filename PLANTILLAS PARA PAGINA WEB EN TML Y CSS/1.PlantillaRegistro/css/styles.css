@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+body{
+    background-image: url("/1.PlantillaRegistro/img/IMAGEN\ FONDO.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center; 
+}
+
+input{
+    color: aliceblue;
+    
+}
+
+.form-register{
+    width: 400px;
+    background: #520000;
+    padding: 50px;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    color: #dfc4e0;
+    box-shadow: 0px 0px 10px 10px #9f02e3;
+}
+
+.form-register h4{
+    font-size: 40px;
+    margin-top: -50px;
+    margin-left: 10px;
+    padding: 30px;
+    margin-bottom: 10px 
+}
+
+.controls{
+    width: 300px;
+    margin-left: 3px;
+    background-color: #010909;
+    padding: 12px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    border: 2px solid #9e0bdd;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 20px;
+}
+
+.form-register p{
+    height: 35px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: -23px;
+}
+
+
+.form-register a{
+    color: #edcaca;
+    text-decoration: none;  
+}
+
+.form-register a:hover{
+    color: #c604fc;
+    text-decoration: underline;  
+}
+
+.form-register .check{
+    width: 50px;
+    margin-bottom: -500px;
+}
+
+
+.form-register .botons{
+    width: 100%;
+    border: none;
+    padding: 12px;
+    background-color: #630a77;
+    margin: 16px 0;
+    font-size: 17px;
+    border-radius: 15px;
+    color: aliceblue;
+    margin-bottom: 30px;
+    margin-top: 22px;
+}

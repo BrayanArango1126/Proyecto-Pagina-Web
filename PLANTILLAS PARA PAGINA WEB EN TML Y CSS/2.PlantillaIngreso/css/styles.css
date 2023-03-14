@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("/2.PlantillaIngreso/img/IMAGEN\ FONDO.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center ;
+    
+}
+
+input{
+    color: aliceblue;
+}
+
+.form-ingreso{
+    width: 400px;
+    padding: 40px;
+    background-color: #220130;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 130px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #dfc4e0;
+    box-shadow: 0px 0px 10px 10px #9f02e3;
+}
+
+.form-ingreso h4{
+    font-size: 40px;
+    margin-top: -10px;
+    margin-left: 55px;
+    margin-bottom: 50px;
+}
+
+.container{
+    width: 300px;
+    padding: 20px;
+    margin-left: 11px;
+    background-color: #010909;
+    border-radius: 20px;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 8px;
+    border: 2px solid #9e0bdd;
+    margin-top: 2px;
+}
+
+.form-ingreso p{
+    font-size: 15px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.form-ingreso a{
+    color: #edcaca;
+    text-decoration: none;
+}
+
+.form-ingreso a:hover{
+    color: #c604fc;
+    text-decoration: underline;
+}
+
+.form-ingreso .ingreso{
+    width: 150px;
+    margin-bottom: 30px;
+    padding: 10px;
+    color: #edcaca;
+    background-color: #630a77;
+    border-radius: 15px;
+    margin-left: 85px;
+    border: none;
+    margin-top: 15px;   
+    font-size: 17px;
+}
+
+.crear{
+    margin-left: 220px;
+}
+
+.ayuda{
+    margin-left: -200px;
+    margin-top: -25px;
+}
+
+
+
